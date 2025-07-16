@@ -40,6 +40,8 @@ namespace Copyconstructor
             Employ e2 = new Employ(102, "Karan", 40000);
             e1.Display();
             e2.Display();
+            Employ e3 = new Employ(e1);
+            e3.Display();
         }
     }
 }
